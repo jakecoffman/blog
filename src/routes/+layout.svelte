@@ -1,5 +1,4 @@
 <script>
-	export const prerender = true; // set for a static build
 	const { children } = $props();
 </script>
 
