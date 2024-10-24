@@ -20,7 +20,7 @@ const config = {
 			precompress: false,
 			strict: true,
 			paths: {
-				base: process.argv.includes('dev') ? '' : '/blog'
+				base: process.argv.includes('dev') ? '' : ''
 			}
 		})
 	}
