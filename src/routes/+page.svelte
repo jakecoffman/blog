@@ -11,9 +11,9 @@
 
 <ul>
 	<li>
-		<a href="/blog/breaking-up-a-pr">Breaking up a PR</a>
+		<a href="breaking-up-a-pr">Breaking up a PR</a>
 	</li>
 	<li>
-		<a href="/blog/types-are-good">Types are Good</a>
+		<a href="types-are-good">Types are Good</a>
 	</li>
 </ul>
