@@ -33,7 +33,7 @@
 </p>
 
 <div style="text-align: center;">
-	<img src="/mvp.jpg" alt="MVP model: Make small, focused PRs.">
+	<img src="../mvp.jpg" alt="MVP model: Make small, focused PRs.">
 </div>
 
 <p>
