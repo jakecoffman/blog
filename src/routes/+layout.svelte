@@ -1,11 +1,19 @@
 <script>
 	const { children } = $props();
+	import { page } from '$app/stores';
+
+	const homePath = $derived.by(() => {
+		if ($page.url.pathname === '/' || $page.url.pathname === '/blog') {
+			return '#';
+		}
+		return '..';
+	})
 </script>
 
 <nav>
 	<ul>
 		<li>
-			<a href="/">Home</a>
+			<a href="{homePath}">Home</a>
 		</li>
 	</ul>
 </nav>
